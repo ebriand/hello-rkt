@@ -1,12 +1,27 @@
 package main
 
 import (
-	"github.com/common-nighthawk/go-figure"
-  "os"
-  "strings"
+	"fmt"
 )
 
 func main() {
-  myFigure := figure.NewFigure(strings.Join(os.Args[1:], " "), "basic", true)
-  myFigure.Print()
+  fmt.Println("                         *     .--.")
+	fmt.Println("                                / /  `")
+  fmt.Println("             +               | |")
+  fmt.Println("                    '         \\ \\__,")
+  fmt.Println("                *          +   '--'  *")
+  fmt.Println("                    +   /\\")
+  fmt.Println("       +              .'  '.   *")
+  fmt.Println("              *      /======\\      +")
+  fmt.Println("                    ;:.  _   ;")
+  fmt.Println("                    |:. (_)  |")
+  fmt.Println("                    |:.  _   |")
+  fmt.Println("          +         |:. (_)  |          *")
+  fmt.Println("                    ;:.      ;")
+  fmt.Println("                  .' \\:.    / `.")
+  fmt.Println("                 / .-'':._.'`-. \\")
+  fmt.Println("                 |/    /||\\    \\|")
+  fmt.Println("           jgs _..--\"\"\"````\"\"\"--.._")
+  fmt.Println("         _.-'``                    ``'-._")
+  fmt.Println("       -'         Hello Voxxed Lux !     '-")
 }
